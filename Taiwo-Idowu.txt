@@ -1,11 +1,43 @@
+
     1. What is the difference between Git and Github?
+       Git is a version control system that lets you manage and keep track of your local repository while Github helps in hosting git repository online.
+
     2. What are the benefits of using Version Control System? 
+    a.Version control enables multiple people to simultaneously work on a single project without interfering with another person's work.
+    b.Version Control System helps manage the source code for the software team by keeping track of all the code modifications. 
+    c.It also protects the source code from any unintended human errors
+
     3. What language is used in Git?
+       The languages used are C shell, Bourne shell, and a handful in Perl.
+
     4. Mention the various Git repository hosting service providers (at least 4)
+    a.Bitbucket
+    b.Gitlab
+    c.Source forge
+    d.Assembla
+
     5. What is a repository in Git?
+       Repository in Git is also known as the Project folder.
+
     6. How can you create a repository in Git?
+       Input cd c:(This means "change directory" to "C drive:")
+       Input mkdir Javascript ( where Javascript stands for the folder name)
+       
     7. Name a few Git commands and explain their usage.
+       ls- list items in a given drive, folder etc.
+       mkdir- for creating of new folders.
+       touch- for creating of new files
+       clear- for clearing of screen
+       c:- for navigating to C drive
     8. What is Git?
-    9. What is a .git Directory?
-    10.What happens if the .git directory gets deleted?
+       Git is a version control system that lets you manage and keep track of your local repository.
+
+      9. What is a .git Directory?
+       .git folder contains all the information that is necessary for your project in version control. 
+
+    10. What happens if the .git directory gets deleted?
+        The folder will no longer be under versioning control.
+
+
+
 ?
