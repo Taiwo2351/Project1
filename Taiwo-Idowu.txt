@@ -17,20 +17,36 @@
     d.Assembla
 
     5. What is a repository in Git?
-       Repository in Git is also known as the Project folder.
+       Repository in Git,is like a data structure used by version control system to store metadata for a set of files and directories in Git.
+       It contains the collection of the files as well as the history of changes made to those files. It can also be considered as a project folder.
 
     6. How can you create a repository in Git?
-       Input cd c:(This means "change directory" to "C drive:")
-       Input mkdir Javascript ( where Javascript stands for the folder name)
-       
+       Create a directory to contain the project.
+       Go into the new directory.
+       Type git init.
+       Type git add to add the files to a staging area.
+       Type git commit.
+
     7. Name a few Git commands and explain their usage.
-       ls- list items in a given drive, folder etc.
-       mkdir- for creating of new folders.
-       touch- for creating of new files
-       clear- for clearing of screen
-       c:- for navigating to C drive
+      a. git init 
+        This command is used to start a new repository.
+      b. git add
+       Usage: git add *  
+       This command adds a file to the staging area.
+      c. git commit
+       Usage: git commit -m “[ Type in the commit message]”  
+       This command records or snapshots the file permanently in the version history.
+      d.git status
+        Usage: git status  
+        This command lists all the files that have to be committed.
+      e. git log
+         Usage: git log  
+         This command is used to list the version history for the current branch.
+
     8. What is Git?
        Git is a version control system that lets you manage and keep track of your local repository.
+       It is also a software used for tracking changes in any set of files, usually used for coordinating 
+       work among programmers collaboratively developing source code during software development. 
 
       9. What is a .git Directory?
        .git folder contains all the information that is necessary for your project in version control. 
